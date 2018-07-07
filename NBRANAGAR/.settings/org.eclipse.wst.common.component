@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="NBRANAGAR">
+        <wb-resource deploy-path="/" source-path="/Pages" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="context-root" value="NBRANAGAR"/>
+        <property name="java-output-path" value="/NBRANAGAR/build/classes"/>
+    </wb-module>
+</project-modules>
