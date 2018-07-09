@@ -24,28 +24,28 @@
       <fieldset>
         <h1 class="col-md-3"></h1>
         <label class="col-md-2">State:</label>
-        <input class="col-md-3 code" type="tel" name="state" id="state" style="margin-right: 25px;">
-        <input class="col-md-3 inp" type="text" > <br><br>
+        <input class="col-md-3 code" type="tel" maxlength="2" placeholder="code" name="state" id="state" style="margin-right: 25px;" required>
+        <input class="col-md-3 inp" type="text"> <br><br>
         <h1 class="col-md-3"></h1>
         <label class="col-md-2">District:</label>
 
-        <input class="col-md-3 code" type="tel" name="state" id="state" style="margin-right: 25px;">
+        <input class="col-md-3 code" type="tel" maxlength="3" placeholder="code" name="state" id="state" style="margin-right: 25px;" required>
         <input class="col-md-3 inp" type="text"><br><br> 
         <h1 class="col-md-3"></h1>
         <label class="col-md-2">Tehsil/Taluka:</label>
-        <input class="col-md-3 code" type="tel" name="state" id="state" style="margin-right: 25px;">
+        <input class="col-md-3 code" type="tel" maxlength="5" placeholder="code" name="state" id="state" style="margin-right: 25px;" required>
         <input class="col-md-3 inp" type="text">  <br><br>
         <h1 class="col-md-3"></h1>
         <label class="col-md-2">Town/Village:</label>
-        <input class="col-md-3 code" type="tel" style="margin-right: 25px;" name="state" id="state">
+        <input class="col-md-3 code" type="tel" maxlength="6" placeholder="code" style="margin-right: 25px;" name="state" id="state" required>
         <input class="col-md-3 inp" type="text" > <br><br>
         <h1 class="col-md-3"></h1>
         <label class="col-md-2">Ward(only for Town):</label>
-        <input class="col-md-3 code" type="tel"  style="margin-right: 25px;" name="state" id="state">
+        <input class="col-md-3 code" type="tel" maxlength="4" placeholder="code"  style="margin-right: 25px;" name="state" id="state" required>
         <input class="col-md-3 inp" type="text"> <br><br>
         <h1 class="col-md-3"></h1>
-        <label class="col-md-2">Population Census 2011 Enumeration Block:</label>
-        <input class="col-md-3 code" type="tel" style="margin-right: 25px;" name="state" id="state">
+        <label class="col-md-5">Population Census 2011 Enumeration Block:</label>
+        <input class="col-md-3 code" placeholder="code" type="tel" style="margin-right: 25px;" name="state" id="state" required>
         <input class="col-md-3 inp" type="text"> 
         <br><br>
       </fieldset><br><br>
@@ -63,64 +63,64 @@
         <legend>Marathi</legend><br>
         <h1 class="col-md-3"></h1>
         <label class="col-md-3">Name:</label>
-        <input class="col-md-3" type="text" name="name"><br><br>
+        <input class="col-md-3" type="text" name="name" required><br><br>
         <h1 class="col-md-3"></h1>
         <label class="col-md-3">Address: H-No:</label>
-        <input class="col-md-3" type="text" name=""><br><br>
+        <input class="col-md-3" type="text" name="address" required><br><br>
         <h1 class="col-md-3"></h1>
         <label class="col-md-3">Lane/Street:</label>
-        <input class="col-md-3" type="text" name=""><br><br>
+        <input class="col-md-3" type="text" name="street" required><br><br>
         <h1 class="col-md-3"></h1>
         <label class="col-md-3">Locality:</label>
-        <input class="col-md-3" type="text" name=""><br><br>
+        <input class="col-md-3" type="text" name="locality" required><br><br>
         <h1 class="col-md-3"></h1>
         <label class="col-md-3">Pincode:</label>
-        <input class="col-md-3" type="tel" name="pincode" id="pincode"><br><br>
+        <input class="col-md-3" type="tel" maxlength="6" name="pincode" id="pincode" required><br><br>
 
         <legend>English</legend><br>
         <h1 class="col-md-3"></h1>
         <label class="col-md-3">Name:</label>
-        <input class="col-md-3" type="text" name="name"><br><br>
+        <input class="col-md-3" type="text" name="name" required><br><br>
         <h1 class="col-md-3"></h1>
         <label class="col-md-3">Address: H-No:</label>
-        <input class="col-md-3" type="text" name="address"><br><br>
+        <input class="col-md-3" type="text" name="address" required><br><br>
         <h1 class="col-md-3"></h1>
         <label class="col-md-3">Lane/Street:</label>
-        <input class="col-md-3" type="text" name="street"><br><br>
+        <input class="col-md-3" type="text" name="street" required><br><br>
         <h1 class="col-md-3"></h1>
         <label class="col-md-3">Locality:</label>
-        <input class="col-md-3" type="text" name="locality"><br><br>
+        <input class="col-md-3" type="text" name="locality" required><br><br>
         <h1 class="col-md-3"></h1>
         <label class="col-md-3">Pincode:</label>
-        <input class="col-md-3" type="tel" name="pincode" id="pincode1"><br><br>
+        <input class="col-md-3" type="tel" maxlength="6" name="pincode" id="pincode1" required><br><br>
         <h1 class="col-md-3"></h1>
         <label class="col-md-3">Tel/Mobile No:</label>
-        <input class="col-md-3" type="tel" name="Mobile" id="mob"><br><br>
+        <input class="col-md-3" type="tel" maxlength="10" name="Mobile" id="mob" required><br><br>
         <h1 class="col-md-3"></h1>
         <label class="col-md-3">Email:</label>
-        <input class="col-md-3" type="Email" name="Email" id="email"><br><br>
+        <input class="col-md-3" type="Email" name="Email" id="email" required><br><br>
         <h1 class="col-md-3"></h1>
         <label class="col-md-3">PAN:</label>
-        <input class="col-md-3" type="tel" name="pan" id="pan"><br><br>
+        <input class="col-md-3" type="tel" maxlength="10" name="pan" id="pan" required><br><br>
         <h1 class="col-md-3"></h1>
         <label class="col-md-3">TAN:</label>
-        <input  class="col-md-3" type="tel" name="tan" id="tan"><br><br>
+        <input  class="col-md-3" type="tel" maxlength="10" name="tan" id="tan" required><br><br>
       </fieldset><br><br>
 
       <legend style="text-align: center; font-size: 25px;">Other Information</legend><br>
       <h1 class="col-md-3"></h1>
       <label class="col-md-3">NIC-2008 Code:</label>
-      <input  class="col-md-3 code" type="tel" name="nic" id="nic" style="margin-right: 30px;">
+      <input  class="col-md-3 code" type="tel" maxlength="3" name="nic" id="nic" style="margin-right: 25px;" required>
       <input class="col-md-3 inp" type="text"><br><br> <br>
       <h1 class="col-md-3"></h1>
       <label class="col-md-3">Year of starting of operation(Under current ownership):</label>
-      <input class="col-md-3 inp" type="year" name="year"><br><br><br>
-      <h1 class="col-md-3"></h1>
+      <input class="col-md-3 inp" type="year" name="year" required><br><br><br>
+      <h1 class="col-md-1"></h1>
       <label class="col-md-3">Ownership Code:</label>
-      <input class="col-md-3 inp" type="tel" name="ownership" id="ownership"><br><br><br>
+      <input class="col-md-3 inp" type="tel" name="ownership" id="ownership" required><br><br><br>
       <h1 class="col-md-3"></h1>
       <label class="col-md-3">Total No. of person employed on the last working day of the visit:</label>
-      <input class="col-md-3 inp" type="tel" name="employ"><br><br><br><br><br>
+      <input class="col-md-3 inp" type="tel" name="employ" required><br><br><br><br><br>
 
 
       <legend style="text-align: center; font-size: 24px;">Enter the registration number whichever is applicable</legend><br>
@@ -169,5 +169,30 @@
           alert("make sure all the inputs are correct")
         }
       }
+    </script>
+    <script>
+    function validateForm(){
+    	var name = document.getElementByName("name");
+    	var address = document.getElementByName("adress");
+    	var street = document.getElementByName("street");
+    	var locality = document.getElementByName("locality");
+    	var pin = document.getElementByName("pincode");
+    	var mobile = document.getElementByName("mobile");
+    	var email = document.getElementByName("email");
+    	var permanantNo = document.getElementByName("pan");
+    	var taxNo = document.getElementByName("tan");
+    	var nic1 = document.getElementByName("nic");
+    	var year = document.getElementByName("year");
+    	var employ = document.getElementByName("employ");
+    	var ownership = document.getElementByName("ownership");
+    
+      if(name == "" && adress == "" && street== "" && locality == "" && email == "" && nic =="" && year.value.length == 4 && employ == "" && ownership == "")
+      {
+    	  alert("Please Make sure all the inputs are correct")
+      }
+      else{
+    	  alert("Success");
+      }
+    } 
     </script>
   </body>  
