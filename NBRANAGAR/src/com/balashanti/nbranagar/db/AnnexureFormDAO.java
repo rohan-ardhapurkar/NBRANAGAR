@@ -24,13 +24,42 @@ public class AnnexureFormDAO {
 	 */
 	public boolean isRecordInsert(AnnexureFormStructure form) throws SQLException {
 		conn = DBConnection.connect(); // connect to the database
+		
 		if (conn != null) {
+			
+			// Insert query goes here
+			String insertQuery = "insert into nbr_registration("
+					+ "state_name,district_name,tehsil_name,village_name,ward,population,office,comp_name,"
+					+ "comp_address,addr_lane,addr_locality,addr_pincode,addr_phone,addr_email,comp_pan,comp_tan,nic_code,"
+					+ "year_of_operation,ownership_code,no_of_persons,registration_type)"
+					+ "values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 
 			// insert here insert into query
-			statement = conn.prepareStatement("");
+			statement = conn.prepareStatement(insertQuery);
+			
 			// set parameters from the AnnexureFormStructure to be inserted into the table
-			statement.setInt(1, form.getStateCode());
-
+			statement.setString(1, form.getStateName());
+			statement.setString(2, form.getDistrictName());
+			statement.setString(3, form.getTehsil());
+			statement.setString(4, form.getVillage());
+			statement.setString(5, form.getWard());
+			statement.setString(6, form.getPopulation());
+			statement.setString(7, form.getOffice());
+			statement.setString(8, form.getName());
+			statement.setString(9, form.getAddress());
+			statement.setString(10, form.getLaneOrStreet());
+			statement.setString(11, form.getLocality());
+			statement.setString(12, form.getPincode());
+			statement.setString(13, form.getPhoneNo());
+			statement.setString(14, form.getEmailId());
+			statement.setString(15, form.getPan());
+			statement.setString(16, form.getTan());
+			statement.setString(17, form.getNicCode());
+			statement.setString(18, form.getYearOfOperation());
+			statement.setString(19, form.getOwnershipCode());
+			statement.setString(20, form.getTotalEmployedMembers());
+			statement.setString(21, form.getRegistrationNumber());
+			
 			// get the result as integer whether data is inserted or not
 			int result = statement.executeUpdate();
 			if (result > 0)

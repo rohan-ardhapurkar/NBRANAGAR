@@ -29,7 +29,6 @@
 </style>
 <script type="text/javascript">
 	$(function() {
-
 		$('#newRegistration').click(function() {
 			
 		})
@@ -54,41 +53,6 @@
 						By State <span class="caret"></span>
 					</button>
 					<ul class="dropdown-menu">
-						<li><a href="#">Andaman and Nicobar Islands</a></li>
-						<li><a href="#">Andhra Pradesh</a></li>
-						<li><a href="#">Arunachal Pradesh</a></li>
-						<li><a href="#">Assam</a></li>
-						<li><a href="#">Bihar</a></li>
-						<li><a href="#">Chandigarh union territory</a></li>
-						<li><a href="#">Chhattisgarh</a></li>
-						<li><a href="#">Dadra and Nagar Haveli union territory</a></li>
-						<li><a href="#">Daman and Diu union territory</a></li>
-						<li><a href="#">Delhi</a></li>
-						<li><a href="#">Goa </a></li>
-						<li><a href="#">Gujarat</a></li>
-						<li><a href="#">Harayana</a></li>
-						<li><a href="#">Himachal Pradesh</a></li>
-						<li><a href="#">Jammu and Kashmir</a></li>
-						<li><a href="#">Jharkhanda</a></li>
-						<li><a href="#">Karnataka</a></li>
-						<li><a href="#">Kerala</a></li>
-						<li><a href="#">Lakshadweep union territory</a></li>
-						<li><a href="#">Madhya Pradesh</a></li>
-						<li><a href="#">Maharashtra</a></li>
-						<li><a href="#">Manipur</a></li>
-						<li><a href="#">Meghalaya</a></li>
-						<li><a href="#">Mizoram</a></li>
-						<li><a href="#">Nagaland</a></li>
-						<li><a href="#">Odisha</a></li>
-						<li><a href="#">Puducherry</a></li>
-						<li><a href="#">Punjab</a></li>
-						<li><a href="#">Rajasthan</a></li>
-						<li><a href="#">Sikkim</a></li>
-						<li><a href="#">Tamil Nadu</a></li>
-						<li><a href="#">Telangana</a></li>
-						<li><a href="#">Tripura</a></li>
-						<li><a href="#">Uttar Pradesh</a></li>
-						<li><a href="#">Uttarakhand</a></li>
 						<li><a href="#">West Bengal</a></li>
 					</ul>
 				</div>

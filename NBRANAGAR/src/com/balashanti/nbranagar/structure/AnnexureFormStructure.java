@@ -8,6 +8,7 @@ public class AnnexureFormStructure {
 	private String tehsil = null;
 	private String village = null;
 	private String ward = null;
+	private String population = null;
 	private String office = null;
 	private String name = null;
 	private String address = null;
@@ -22,7 +23,7 @@ public class AnnexureFormStructure {
 	private String yearOfOperation = null;
 	private String totalEmployedMembers = null;
 	private String registrationNumber = null;
-	
+	private String ownershipCode = null;
 	
 	/**
 	 * @return the stateCode
@@ -275,6 +276,18 @@ public class AnnexureFormStructure {
 	 */
 	public void setRegistrationNumber(String registrationNumber) {
 		this.registrationNumber = registrationNumber;
+	}
+	public String getOwnershipCode() {
+		return ownershipCode;
+	}
+	public void setOwnershipCode(String ownershipCode) {
+		this.ownershipCode = ownershipCode;
+	}
+	public String getPopulation() {
+		return population;
+	}
+	public void setPopulation(String population) {
+		this.population = population;
 	}
 
 }
