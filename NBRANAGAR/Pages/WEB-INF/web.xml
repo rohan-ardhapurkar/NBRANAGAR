@@ -7,12 +7,15 @@
 	<welcome-file-list>
 		<welcome-file>login.jsp</welcome-file>
 	</welcome-file-list>
+	
 	<servlet>
-		<servlet-name>loginUser</servlet-name>
+		<servlet-name>LoginServlet</servlet-name>
 		<servlet-class>com.balashanti.nbranagar.servlet.LoginServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>loginUser</servlet-name>
-		<url-pattern>/loginuser</url-pattern>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/LoginServlet</url-pattern>
 	</servlet-mapping>
+	
+	
 </web-app>

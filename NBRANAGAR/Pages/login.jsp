@@ -18,8 +18,9 @@
 		})
 
 		$('#login_b').click(function() {
+			debugger
+			document.loginForm.action = "LoginServlet";
 			document.loginForm.method = "POST";
-			document.loginForm.action = "loginuser";
 			document.loginForm.submit();
 		})
 	});
@@ -27,7 +28,7 @@
 </head>
 
 <body>
-	<form name="loginForm" id="loginForm">
+	<form name="loginForm" id="loginForm" method="POST">
 		<div class="login">
 			<div class="login-triangle"></div>
 
