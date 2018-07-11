@@ -43,7 +43,8 @@ public class LoginServlet extends HttpServlet {
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		if (username.equals("admin") && password.equals("admin")) {
-			request.getRequestDispatcher("/HomeServlet").forward(request, response);
+			//request.getRequestDispatcher("/HomeServlet").forward(request, response);
+			response.sendRedirect("home.jsp");
 		} else {
 			RequestDispatcher dispatcher = request.getRequestDispatcher("login.jsp");
 			dispatcher.include(request, response);
