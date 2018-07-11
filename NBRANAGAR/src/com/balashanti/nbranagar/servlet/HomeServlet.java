@@ -1,6 +1,7 @@
 package com.balashanti.nbranagar.servlet;
 
 import java.io.IOException;
+
 import java.sql.SQLException;
 import java.util.List;
 
@@ -32,6 +33,8 @@ public class HomeServlet extends HttpServlet {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+		request.setAttribute("companyList", formList);
+		request.getRequestDispatcher("home.jsp").forward(request, response);
 	}
 
 	/**
@@ -48,5 +51,4 @@ public class HomeServlet extends HttpServlet {
 	public void setFormList(List<AnnexureFormStructure> formList) {
 		this.formList = formList;
 	}
-
 }
