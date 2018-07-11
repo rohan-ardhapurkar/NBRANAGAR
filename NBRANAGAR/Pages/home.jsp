@@ -78,15 +78,6 @@ body {
 						By Act <span class="caret"></span>
 					</button>
 					<ul class="dropdown-menu">
-						<li><a href="#">Companies Act, 1956</a></li>
-						<li><a href="#">Factories Act, 1948</a></li>
-						<li><a href="#">Shops and Commercial Establishment Act,
-								1948</a></li>
-						<li><a href="#">Societies Registration Act, 1860</a></li>
-						<li><a href="#">Cooperative Societies Act, 1960</a></li>
-						<li><a href="#">Khadi and Village Industries Board</a></li>
-						<li><a href="#">Directorate of Industries(District
-								Industries Centre)</a></li>
 					</ul>
 				</div>
 				<div class="dropdown col-md-1">
@@ -95,15 +86,6 @@ body {
 						By Year <span class="caret"></span>
 					</button>
 					<ul class="dropdown-menu">
-						<li><a href="#">Companies Act, 1956</a></li>
-						<li><a href="#">Factories Act, 1948</a></li>
-						<li><a href="#">Shops and Commercial Establishment Act,
-								1948</a></li>
-						<li><a href="#">Societies Registration Act, 1860</a></li>
-						<li><a href="#">Cooperative Societies Act, 1960</a></li>
-						<li><a href="#">Khadi and Village Industries Board</a></li>
-						<li><a href="#">Directorate of Industries(District
-								Industries Centre)</a></li>
 					</ul>
 				</div>
 			</div>
