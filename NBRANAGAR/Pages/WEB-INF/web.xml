@@ -7,7 +7,7 @@
 	<welcome-file-list>
 		<welcome-file>login.jsp</welcome-file>
 	</welcome-file-list>
-	
+
 	<servlet>
 		<servlet-name>LoginServlet</servlet-name>
 		<servlet-class>com.balashanti.nbranagar.servlet.LoginServlet</servlet-class>
@@ -16,6 +16,14 @@
 		<servlet-name>LoginServlet</servlet-name>
 		<url-pattern>/LoginServlet</url-pattern>
 	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>HomeServlet</servlet-name>
+		<servlet-class>com.balashanti.nbranagar.servlet.HomeServlet</servlet-class>
+	</servlet>
 	
-	
+	<servlet-mapping>
+		<servlet-name>HomeServlet</servlet-name>
+		<url-pattern>/HomeServlet</url-pattern>
+	</servlet-mapping>
 </web-app>

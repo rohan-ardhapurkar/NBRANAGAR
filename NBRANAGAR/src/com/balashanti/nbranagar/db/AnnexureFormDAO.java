@@ -108,12 +108,17 @@ public class AnnexureFormDAO {
 		allRecords = new ArrayList<AnnexureFormStructure>();
 		conn = DBConnection.connect();
 		if (conn != null) {
-			statement = conn.prepareStatement("select * from ");
+			statement = conn.prepareStatement("select comp_name,comp_address,state_name,district_name from nbr_registration");
 
 			rs = statement.executeQuery();
 
 			while (rs.next()) {
-
+				AnnexureFormStructure form = new AnnexureFormStructure();
+				form.setName(rs.getString(1));
+				form.setAddress(rs.getString(2));
+				form.setStateName(rs.getString(3));
+				form.setDistrictName(rs.getString(4));
+				allRecords.add(form);
 			}
 		}
 		return allRecords;

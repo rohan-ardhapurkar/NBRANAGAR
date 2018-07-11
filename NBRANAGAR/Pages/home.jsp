@@ -14,6 +14,11 @@
 <link rel="stylesheet" type="text/css"
 	href="${pageContext.request.contextPath}/css/style.css">
 <style type="text/css">
+body {
+	overflow-y: hidden;
+	overflow-x: hidden;
+}
+
 #header {
 	background: #00c4cc;
 	background-image: linear-gradient(139deg, #00796B 0%, #004D40 100%);
@@ -30,7 +35,9 @@
 <script type="text/javascript">
 	$(function() {
 		$('#newRegistration').click(function() {
-			
+			debugger
+			window.location.href = "mainpage.jsp";
+			return false;
 		})
 	});
 </script>
@@ -47,16 +54,6 @@
 				<h1 class="col-md-1"></h1>
 				<h1 class="col-md-1"></h1>
 				<label class="col-md-1"><u>Filters </u></label>
-				<div class="dropdown col-sm-2">
-					<button class="btn fbtn dropdown-toggle" type="button"
-						data-toggle="dropdown">
-						By State <span class="caret"></span>
-					</button>
-					<ul class="dropdown-menu">
-						<li><a href="#">West Bengal</a></li>
-					</ul>
-				</div>
-
 				<div class="dropdown col-sm-2">
 					<button class="btn fbtn dropdown-toggle" type="button"
 						data-toggle="dropdown">
@@ -117,13 +114,14 @@
 				List Of Companies
 			</h1>
 			<div class="tbl-header">
-				<table cellpadding="0" cellspacing="0" border="0">
+				<table cellpadding="0" cellspacing="0" border="0"
+					style="overflow-x: true; overflow-y: true;">
 					<thead>
 						<tr>
-							<th>Sr No</th>
 							<th>Company Name</th>
-							<th>CIN</th>
-							<th>Type Of Company</th>
+							<th>Company Address</th>
+							<th>State</th>
+							<th>District</th>
 						</tr>
 					</thead>
 				</table>
