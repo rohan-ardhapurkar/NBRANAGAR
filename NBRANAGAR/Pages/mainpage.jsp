@@ -25,20 +25,20 @@
         <h1 class="col-md-3"></h1>
         <label class="col-md-2">State:</label>
         <input class="col-md-3 code" type="tel" maxlength="2" placeholder="code" name="state" id="state" style="margin-right: 25px;" required>
-        <input class="col-md-3 inp" type="text"> <br><br>
+        <input class="col-md-3 inp" type="text" id="state_name"> <br><br>
         <h1 class="col-md-3"></h1>
         <label class="col-md-2">District:</label>
 
-        <input class="col-md-3 code" type="tel" maxlength="3" placeholder="code" name="state" id="state" style="margin-right: 25px;" required>
-        <input class="col-md-3 inp" type="text"><br><br> 
+        <input class="col-md-3 code" type="tel" maxlength="3" placeholder="code" name="district" id="district" style="margin-right: 25px;" required>
+        <input class="col-md-3 inp" type="text" id="district_name"><br><br> 
         <h1 class="col-md-3"></h1>
         <label class="col-md-2">Tehsil/Taluka:</label>
-        <input class="col-md-3 code" type="tel" maxlength="5" placeholder="code" name="state" id="state" style="margin-right: 25px;" required>
-        <input class="col-md-3 inp" type="text">  <br><br>
+        <input class="col-md-3 code" type="tel" maxlength="5" placeholder="code" name="taluka" id="taluka" style="margin-right: 25px;" required>
+        <input class="col-md-3 inp" type="text" id="taluka_name">  <br><br>
         <h1 class="col-md-3"></h1>
         <label class="col-md-2">Town/Village:</label>
-        <input class="col-md-3 code" type="tel" maxlength="6" placeholder="code" style="margin-right: 25px;" name="state" id="state" required>
-        <input class="col-md-3 inp" type="text" > <br><br>
+        <input class="col-md-3 code" type="tel" maxlength="6" placeholder="code" style="margin-right: 25px;" name="village" id="village" required>
+        <input class="col-md-3 inp" type="text" id="village_name"> <br><br>
         <h1 class="col-md-3"></h1>
         <label class="col-md-2">Ward(only for Town):</label>
         <input class="col-md-3 code" type="tel" maxlength="4" placeholder="code"  style="margin-right: 25px;" name="state" id="state" required>
@@ -148,6 +148,35 @@
 
 
     <script>
+    $('#state').on('input', function() {
+        var state1=$("#state").val();
+        $.get('MainServlet?id='+state1+'&type=state', function(data) {
+        	$("#state_name").val(data);
+        });
+        
+    });
+    $('#district').on('input', function() {
+        var state1=$("#district").val();
+        $.get('MainServlet?id='+state1+'&type=district', function(data) {
+        	$("#district_name").val(data);
+        });
+        
+    });
+    $('#taluka').on('input', function() {
+        var state1=$("#taluka").val();
+        $.get('MainServlet?id='+state1+'&type=taluka', function(data) {
+        	$("#taluka_name").val(data);
+        });
+        
+    });
+    $('#village').on('input', function() {
+        var state1=$("#village").val();
+        $.get('MainServlet?id='+state1+'&type=village', function(data) {
+        	$("#village_name").val(data);
+        });
+        
+    });
+    
       function ckl(){
         var state = document.getElementById("state");
         var dist = document.getElementById("dist");
@@ -195,4 +224,4 @@
       }
     } 
     </script>
-  </body>  
+  </body>  .....................................................................

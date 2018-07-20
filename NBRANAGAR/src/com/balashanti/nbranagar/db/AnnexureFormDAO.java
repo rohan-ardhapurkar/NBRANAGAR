@@ -97,6 +97,58 @@ public class AnnexureFormDAO {
 			return null;
 
 	}
+	public String getState(String id,String type) throws SQLException {
+		AnnexureFormStructure formDetails = null;
+		conn = DBConnection.connect();
+		String name="";
+		if (conn != null) {
+			// select query goes here
+			if(type.equals("state"))
+			{
+				statement = conn.prepareStatement("select state_name from nbr_states where state_code = " + id);
+				// get the data in result-set
+				rs = statement.executeQuery();
+				
+				// store the data into AnnexureFormStructure as per index from the table
+				while (rs.next()) {
+					name = rs.getString(1);
+				}
+			}
+			else if(type.equals("district"))
+			{
+				statement = conn.prepareStatement("select dist_name from nbr_districts where dist_code = " + id);
+				// get the data in result-set
+				rs = statement.executeQuery();
+				// store the data into AnnexureFormStructure as per index from the table
+				while (rs.next()) {
+					name = rs.getString(1);
+				}
+			}
+			else if(type.equals("village"))
+			{
+				statement = conn.prepareStatement("select village_name from nbr_village where village_code = " + id);
+				// get the data in result-set
+				rs = statement.executeQuery();
+				// store the data into AnnexureFormStructure as per index from the table
+				while (rs.next()) {
+					name = rs.getString(1);
+				}
+			}
+			else if(type.equals("taluka"))
+			{
+				statement = conn.prepareStatement("select taluka_name from nbr_taluka where taluka_code = " + id);
+				// get the data in result-set
+				rs = statement.executeQuery();
+				// store the data into AnnexureFormStructure as per index from the table
+				while (rs.next()) {
+					name = rs.getString(1);
+				}
+			}
+			return name;
+		} else
+			return null;
+
+	}
 
 	/**
 	 * This method is to return all the records from present table

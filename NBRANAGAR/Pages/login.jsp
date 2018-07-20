@@ -18,7 +18,7 @@
 		})
 
 		$('#login_b').click(function() {
-			debugger
+			
 			document.loginForm.action = "LoginServlet";
 			document.loginForm.method = "POST";
 			document.loginForm.submit();
