@@ -97,6 +97,7 @@ public class AnnexureFormDAO {
 			return null;
 
 	}
+	@SuppressWarnings("unused")
 	public String getState(String id,String type) throws SQLException {
 		AnnexureFormStructure formDetails = null;
 		conn = DBConnection.connect();
@@ -147,7 +148,6 @@ public class AnnexureFormDAO {
 			return name;
 		} else
 			return null;
-
 	}
 
 	/**

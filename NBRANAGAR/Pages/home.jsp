@@ -100,7 +100,6 @@ body {
 				<table cellpadding="0" cellspacing="0" border="0"
 					style="overflow-x: true; overflow-y: true;">
 					<thead>
-
 						<tr>
 							<th>Company Name</th>
 							<th>Company Address</th>

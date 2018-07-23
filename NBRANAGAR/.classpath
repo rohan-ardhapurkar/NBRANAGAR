@@ -13,5 +13,21 @@
 	<classpathentry kind="lib" path="Pages/WEB-INF/lib/jsp-api.jar"/>
 	<classpathentry kind="lib" path="Pages/WEB-INF/lib/servlet-api.jar"/>
 	<classpathentry kind="lib" path="Pages/WEB-INF/lib/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="Pages/WEB-INF/lib/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="Pages/WEB-INF/lib/commons-collections-3.2.1-1.0.0.jar"/>
+	<classpathentry kind="lib" path="Pages/WEB-INF/lib/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="Pages/WEB-INF/lib/itextpdf-5.4.0.jar"/>
+	<classpathentry kind="lib" path="Pages/WEB-INF/lib/jasperreports-6.5.1.jar"/>
+	<classpathentry kind="lib" path="Pages/WEB-INF/lib/jasperreports-chart-themes-6.5.1.jar"/>
+	<classpathentry kind="lib" path="Pages/WEB-INF/lib/jasperreports-fonts-6.5.1.jar"/>
+	<classpathentry kind="lib" path="Pages/WEB-INF/lib/jasperreports-functions-6.5.1.jar"/>
+	<classpathentry kind="lib" path="Pages/WEB-INF/lib/jfreechart.jar"/>
+	<classpathentry kind="lib" path="Pages/WEB-INF/lib/org-apache-commons-logging.jar"/>
+	<classpathentry kind="lib" path="Pages/WEB-INF/lib/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="Pages/WEB-INF/lib/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="Pages/WEB-INF/lib/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="Pages/WEB-INF/lib/poi-ooxml-3.17.jar"/>
+	<classpathentry kind="lib" path="Pages/WEB-INF/lib/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="Pages/WEB-INF/lib/poi-scratchpad-3.17.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

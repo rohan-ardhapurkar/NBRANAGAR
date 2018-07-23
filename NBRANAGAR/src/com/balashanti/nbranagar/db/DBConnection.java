@@ -15,7 +15,7 @@ public class DBConnection {
 			e.printStackTrace();
 		}
 		try {
-			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/nbr_nagar", "root", "");
+			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/nbr_nagar", "root", "root");
 		} catch (SQLException e) {
 			System.out.println("Error while generating connection with DB");
 			e.printStackTrace();
