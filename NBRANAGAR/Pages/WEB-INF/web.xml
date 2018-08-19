@@ -12,7 +12,7 @@
     <servlet-name>LoginServlet</servlet-name>
     <url-pattern>/LoginServlet</url-pattern>
   </servlet-mapping>
-   <servlet>
+  <servlet>
     <servlet-name>MainServlet</servlet-name>
     <servlet-class>com.balashanti.nbranagar.servlet.MainServlet</servlet-class>
   </servlet>
@@ -28,6 +28,13 @@
     <servlet-name>HomeServlet</servlet-name>
     <url-pattern>/HomeServlet</url-pattern>
   </servlet-mapping>
-
- 
+  
+  <servlet>
+  	<servlet-name>DownloadExcelServlet</servlet-name>
+  	<servlet-class>com.balashanti.nbranagar.servlet.DownloadExcelServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DownloadExcelServlet</servlet-name>
+  	<url-pattern>/DownloadExcelServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

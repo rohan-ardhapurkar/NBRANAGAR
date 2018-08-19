@@ -40,6 +40,10 @@ body {
 			window.location.href = "mainpage.jsp";
 			return false;
 		})
+		$('#downloadExcel').click(function(){
+			document.homePage.action = "";
+			document.homePage.method = "POST";
+			document.homePage.submit();		})
 	});
 </script>
 
@@ -141,7 +145,7 @@ body {
 			</script>
 			<button class="btn btn-success" style="margin-left: 450px;"
 				id="newRegistration">New Registration</button>
-			<button class="btn btn-primary" style="margin-left: 70px;">Download
+			<button class="btn btn-primary" style="margin-left: 70px;" id="downloadExcel" >Download
 				Excel</button>
 			<br>
 		</div>

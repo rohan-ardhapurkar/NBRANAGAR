@@ -68,17 +68,14 @@ $(function() {
 				<label class="col-md-2">Ward(only for Town):</label> <input
 					class="col-md-3 code" type="tel" maxlength="4" placeholder="code"
 					style="margin-right: 25px;" name="state" id="state" required>
-				<input class="col-md-3 inp" type="text"> <br>
-				<br>
+				<input class="col-md-3 inp" type="text"> <br> <br>
 				<h1 class="col-md-3"></h1>
 				<label class="col-md-5">Population Census 2011 Enumeration
 					Block:</label> <input class="col-md-3 code" placeholder="code" type="tel"
 					style="margin-right: 25px;" name="state" id="state" required>
-				<input class="col-md-3 inp" type="text"> <br>
-				<br>
+				<input class="col-md-3 inp" type="text"> <br> <br>
 			</fieldset>
-			<br>
-			<br>
+			<br> <br>
 
 			<legend style="text-align: center; font-size: 25px;">Section
 				II: Information on Directory of Establishments</legend>
@@ -99,8 +96,7 @@ $(function() {
 					<br>
 					<h1 class="col-md-3"></h1>
 					<label class="col-md-3">Name:</label> <input class="col-md-3"
-						type="text" name="name" required><br>
-					<br>
+						type="text" name="name" required><br> <br>
 					<h1 class="col-md-3"></h1>
 					<label class="col-md-3">Address: H-No:</label> <input
 						class="col-md-3" type="text" name="address" required><br>
@@ -111,8 +107,7 @@ $(function() {
 					<br>
 					<h1 class="col-md-3"></h1>
 					<label class="col-md-3">Locality:</label> <input class="col-md-3"
-						type="text" name="locality" required><br>
-					<br>
+						type="text" name="locality" required><br> <br>
 					<h1 class="col-md-3"></h1>
 					<label class="col-md-3">Pincode:</label> <input class="col-md-3"
 						type="tel" maxlength="6" name="pincode" id="pincode" required><br>
@@ -122,8 +117,7 @@ $(function() {
 					<br>
 					<h1 class="col-md-3"></h1>
 					<label class="col-md-3">Name:</label> <input class="col-md-3"
-						type="text" name="name" required><br>
-					<br>
+						type="text" name="name" required><br> <br>
 					<h1 class="col-md-3"></h1>
 					<label class="col-md-3">Address: H-No:</label> <input
 						class="col-md-3" type="text" name="address" required><br>
@@ -134,8 +128,7 @@ $(function() {
 					<br>
 					<h1 class="col-md-3"></h1>
 					<label class="col-md-3">Locality:</label> <input class="col-md-3"
-						type="text" name="locality" required><br>
-					<br>
+						type="text" name="locality" required><br> <br>
 					<h1 class="col-md-3"></h1>
 					<label class="col-md-3">Pincode:</label> <input class="col-md-3"
 						type="tel" maxlength="6" name="pincode" id="pincode1" required><br>
@@ -143,12 +136,10 @@ $(function() {
 					<h1 class="col-md-3"></h1>
 					<label class="col-md-3">Tel/Mobile No:</label> <input
 						class="col-md-3" type="tel" maxlength="10" name="Mobile" id="mob"
-						required><br>
-					<br>
+						required><br> <br>
 					<h1 class="col-md-3"></h1>
 					<label class="col-md-3">Email:</label> <input class="col-md-3"
-						type="Email" name="Email" id="email" required><br>
-					<br>
+						type="Email" name="Email" id="email" required><br> <br>
 					<h1 class="col-md-3"></h1>
 					<label class="col-md-3">PAN:</label> <input class="col-md-3"
 						type="tel" maxlength="10" name="pan" id="pan" required><br>
@@ -158,8 +149,7 @@ $(function() {
 						type="tel" maxlength="10" name="tan" id="tan" required><br>
 					<br>
 				</fieldset>
-				<br>
-				<br>
+				<br> <br>
 
 				<legend style="text-align: center; font-size: 25px;">Other
 					Information</legend>
@@ -168,28 +158,20 @@ $(function() {
 				<label class="col-md-3">NIC-2008 Code:</label> <input
 					class="col-md-3 code" type="tel" maxlength="3" name="nic" id="nic"
 					style="margin-right: 25px;" required> <input
-					class="col-md-3 inp" type="text"><br>
-				<br> <br>
+					class="col-md-3 inp" type="text"><br> <br> <br>
 				<h1 class="col-md-3"></h1>
 				<label class="col-md-3">Year of starting of operation(Under
 					current ownership):</label> <input class="col-md-3 inp" type="year"
-					name="year" required><br>
-				<br>
-				<br>
+					name="year" required><br> <br> <br>
 				<h1 class="col-md-1"></h1>
 				<label class="col-md-3">Ownership Code:</label> <input
 					class="col-md-3 inp" type="tel" name="ownership" id="ownership"
-					required><br>
-				<br>
-				<br>
+					required><br> <br> <br>
 				<h1 class="col-md-3"></h1>
 				<label class="col-md-3">Total No. of person employed on the
 					last working day of the visit:</label> <input class="col-md-3 inp"
-					type="tel" name="employ" required><br>
-				<br>
-				<br>
-				<br>
-				<br>
+					type="tel" name="employ" required><br> <br> <br>
+				<br> <br>
 
 
 				<legend style="text-align: center; font-size: 24px;">Enter
@@ -214,8 +196,8 @@ $(function() {
 					</ul>
 				</div>
 				<input type="number" name="reg_no" id="reg_no" class="col-md-3"
-					style="margin-bottom: 30px;"> <br>
-				<br> <input type="submit" value="Submit" onclick="ckl()"
+					style="margin-bottom: 30px;"> <br> <br> <input
+					type="submit" value="Submit" onclick="ckl()"
 					class="btn btn-success" id="saveForm"
 					style="margin-left: 550px; margin-bottom: 20px; width: 130px; height: 45px; font-size: 20px; font-weight: 570">
 		</form>
@@ -286,6 +268,7 @@ $(function() {
 			var year = document.getElementByName("year");
 			var employ = document.getElementByName("employ");
 			var ownership = document.getElementByName("ownership");
+			}
 	</script>
 </body>
 .....................................................................
