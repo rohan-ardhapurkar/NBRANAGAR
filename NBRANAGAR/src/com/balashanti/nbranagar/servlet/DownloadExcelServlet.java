@@ -64,7 +64,7 @@ public class DownloadExcelServlet extends HttpServlet {
 			throws ServletException, IOException {
 		AnnexureFormDAO dao = new AnnexureFormDAO();
 		try {
-			formList = dao.showAllRecords();
+			formList = dao.getAllRecords();
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
@@ -97,7 +97,6 @@ public class DownloadExcelServlet extends HttpServlet {
 				e.printStackTrace();
 			}
 			fileInputStream = new FileInputStream(new File(jasperPath + "//" + jasperFile + ".xls"));
-			
 		} catch (JRException e) {
 			e.printStackTrace();
 		} catch (Exception e) {

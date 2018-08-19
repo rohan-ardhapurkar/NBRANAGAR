@@ -175,4 +175,40 @@ public class AnnexureFormDAO {
 		}
 		return allRecords;
 	}
+	
+	
+	public List<AnnexureFormStructure> getAllRecords()throws SQLException{
+		allRecords = new ArrayList<AnnexureFormStructure>();
+		conn = DBConnection.connect();
+		if (conn != null) {
+			statement = conn.prepareStatement("select comp_name,comp_address,addr_lane,addr_locality,"
+					+ "addr_pincode,addr_phone,addr_email,comp_pan,comp_tan,state_name,"
+					+ "district_name,village_name,ward,tehsil_name,population from nbr_registration");
+
+			rs = statement.executeQuery();
+
+			while (rs.next()) {
+				AnnexureFormStructure form = new AnnexureFormStructure();
+				form.setName(rs.getString(1));
+				form.setAddress(rs.getString(2));
+				form.setLaneOrStreet(rs.getString(3));
+				form.setLocality(rs.getString(4));
+				form.setPincode(rs.getString(5));
+				form.setPhoneNo(rs.getString(6));
+				form.setEmailId(rs.getString(7));
+				form.setPan(rs.getString(8));
+				form.setTan(rs.getString(9));
+				form.setStateName(rs.getString(10));
+				form.setDistrictName(rs.getString(11));
+				form.setVillage(rs.getString(12));
+				form.setWard(rs.getString(13));
+				form.setTehsil(rs.getString(14));
+				form.setPopulation(rs.getString(15));
+				
+				
+				allRecords.add(form);
+			}
+		}
+		return allRecords;
+	}
 }

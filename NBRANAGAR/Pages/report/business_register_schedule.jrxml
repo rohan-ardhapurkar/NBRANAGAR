@@ -107,7 +107,7 @@
 							</staticText>
 						</jr:columnHeader>
 						<jr:detailCell style="Table_TD" height="30">
-							<textField>
+							<textField isBlankWhenNull="true">
 								<reportElement x="0" y="0" width="140" height="30" uuid="ad5d07d8-c2f0-4e22-89aa-7dea94d244f5"/>
 								<textElement textAlignment="Center"/>
 								<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
@@ -137,7 +137,7 @@
 								</staticText>
 							</jr:columnHeader>
 							<jr:detailCell style="Table_TD" height="30">
-								<textField>
+								<textField isBlankWhenNull="true">
 									<reportElement x="0" y="0" width="50" height="30" uuid="e700a81d-c1d2-4b95-a81e-a9efee902c0d"/>
 									<textElement textAlignment="Right">
 										<paragraph rightIndent="4"/>
@@ -158,7 +158,7 @@
 								</staticText>
 							</jr:columnHeader>
 							<jr:detailCell style="Table_TD" height="30">
-								<textField>
+								<textField isBlankWhenNull="true">
 									<reportElement x="0" y="0" width="100" height="30" uuid="0debc9ea-f5a3-4276-97e8-725f4eecd1b0"/>
 									<textElement>
 										<paragraph leftIndent="4"/>
@@ -179,7 +179,7 @@
 								</staticText>
 							</jr:columnHeader>
 							<jr:detailCell style="Table_TD" height="30">
-								<textField>
+								<textField isBlankWhenNull="true">
 									<reportElement x="0" y="0" width="60" height="30" uuid="e75bf7e9-48a7-4d15-b20c-6d07c00915ef"/>
 									<textElement>
 										<paragraph leftIndent="4"/>
@@ -200,7 +200,7 @@
 								</staticText>
 							</jr:columnHeader>
 							<jr:detailCell style="Table_TD" height="30">
-								<textField>
+								<textField isBlankWhenNull="true">
 									<reportElement x="0" y="0" width="60" height="30" uuid="85e5e106-8920-4322-a408-9d324ea625a1"/>
 									<textElement textAlignment="Center">
 										<paragraph leftIndent="4"/>
@@ -221,7 +221,7 @@
 								</staticText>
 							</jr:columnHeader>
 							<jr:detailCell style="Table_TD" height="30">
-								<textField>
+								<textField isBlankWhenNull="true">
 									<reportElement x="0" y="0" width="80" height="30" uuid="477933f6-4881-4dc9-b32c-3d0391df57a3"/>
 									<textElement textAlignment="Center"/>
 									<textFieldExpression><![CDATA[$F{phoneNo}]]></textFieldExpression>
@@ -240,7 +240,7 @@
 								</staticText>
 							</jr:columnHeader>
 							<jr:detailCell style="Table_TD" height="30">
-								<textField>
+								<textField isBlankWhenNull="true">
 									<reportElement x="0" y="0" width="140" height="30" uuid="26789319-9826-4e00-8031-7d93f3206ca5"/>
 									<textElement>
 										<paragraph leftIndent="4"/>
@@ -261,7 +261,7 @@
 								</staticText>
 							</jr:columnHeader>
 							<jr:detailCell style="Table_TD" height="30">
-								<textField>
+								<textField isBlankWhenNull="true">
 									<reportElement x="0" y="0" width="100" height="30" uuid="5d68f1b5-b7eb-4f28-977d-c6e21666fab8"/>
 									<textElement textAlignment="Center"/>
 									<textFieldExpression><![CDATA[$F{pan}]]></textFieldExpression>
@@ -280,7 +280,7 @@
 								</staticText>
 							</jr:columnHeader>
 							<jr:detailCell style="Table_TD" height="30">
-								<textField>
+								<textField isBlankWhenNull="true">
 									<reportElement x="0" y="0" width="100" height="30" uuid="116bb9d9-f078-4fd3-8076-bffb53359167"/>
 									<textElement textAlignment="Center"/>
 									<textFieldExpression><![CDATA[$F{tan}]]></textFieldExpression>
@@ -299,7 +299,7 @@
 								</staticText>
 							</jr:columnHeader>
 							<jr:detailCell style="Table_TD" height="30">
-								<textField>
+								<textField isBlankWhenNull="true">
 									<reportElement x="0" y="0" width="90" height="30" uuid="76849990-2c43-493d-917d-14a403d64617"/>
 									<textElement textAlignment="Center"/>
 									<textFieldExpression><![CDATA[$F{stateName}]]></textFieldExpression>
@@ -318,7 +318,7 @@
 								</staticText>
 							</jr:columnHeader>
 							<jr:detailCell style="Table_TD" height="30">
-								<textField>
+								<textField isBlankWhenNull="true">
 									<reportElement x="0" y="0" width="80" height="30" uuid="7f812430-79d9-4278-898e-dfe1fb3ba0d8"/>
 									<textElement textAlignment="Center">
 										<paragraph leftIndent="4"/>
@@ -339,7 +339,7 @@
 								</staticText>
 							</jr:columnHeader>
 							<jr:detailCell style="Table_TD" height="30">
-								<textField>
+								<textField isBlankWhenNull="true">
 									<reportElement x="0" y="0" width="80" height="30" uuid="ce88aa51-636f-456a-bdf9-2e7730d706a9"/>
 									<textElement textAlignment="Center"/>
 									<textFieldExpression><![CDATA[$F{village}]]></textFieldExpression>
@@ -358,7 +358,7 @@
 								</staticText>
 							</jr:columnHeader>
 							<jr:detailCell style="Table_TD" height="30">
-								<textField>
+								<textField isBlankWhenNull="true">
 									<reportElement x="0" y="0" width="70" height="30" uuid="28a32dae-ef53-4c1f-8168-f9abc7baf134"/>
 									<textElement textAlignment="Right">
 										<paragraph rightIndent="4"/>
@@ -379,7 +379,7 @@
 								</staticText>
 							</jr:columnHeader>
 							<jr:detailCell style="Table_TD" height="30">
-								<textField>
+								<textField isBlankWhenNull="true">
 									<reportElement x="0" y="0" width="60" height="30" uuid="eabd9b05-b47f-4db9-b5b8-ca41cb099530"/>
 									<textElement textAlignment="Center"/>
 									<textFieldExpression><![CDATA[$F{tehsil}]]></textFieldExpression>
@@ -399,7 +399,7 @@
 								</staticText>
 							</jr:columnHeader>
 							<jr:detailCell style="Table_TD" height="30">
-								<textField>
+								<textField isBlankWhenNull="true">
 									<reportElement x="0" y="0" width="90" height="30" uuid="00fb65ab-0643-45df-a5d4-09dc55587d94"/>
 									<textElement textAlignment="Right">
 										<paragraph rightIndent="4"/>
