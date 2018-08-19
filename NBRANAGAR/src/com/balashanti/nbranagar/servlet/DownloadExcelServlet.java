@@ -68,7 +68,7 @@ public class DownloadExcelServlet extends HttpServlet {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		jasperPath = this.getServletContext().getRealPath("reports");
+		jasperPath = this.getServletContext().getRealPath("report");
 		JRBeanCollectionDataSource beanCollectionDataSource = new JRBeanCollectionDataSource(formList);
 		HashMap<String, Object> reportMap = new HashMap<String, Object>();
 		reportMap.put("excelContent", beanCollectionDataSource);
